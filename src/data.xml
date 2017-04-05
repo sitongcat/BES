@@ -1,0 +1,94 @@
+<?xml verson="1.0" encoding="utf-8" ?>
+<bes>
+    <depts>
+        <dept code="ADMIN" name="系统维护" type="0" />
+    </depts>
+    <user userName="admin" password="123456" name="系统管理员" deptCode="ADMIN" type="0" />
+
+    <costCategories>
+        <costType name="其他运杂费" sort="0">
+            <costCategory code="4200410006" name="直销运费"/>
+            <costCategory code="42004100061" name="非油运费(非油部)"/>
+            <costCategory code="42004100062" name="非油运费（县公司）"/>
+        </costType>
+        <costType id="1" name="职工薪酬" sort="1">
+            <costCategory code="4100010001" name="工资"/>
+            <costCategory code="4100080101" name="劳务费"/>
+            <costCategory code="4100080001" name="社会保险费"/>
+            <costCategory code="4100050002" name="住房公积金"/>
+            <costCategory code="4100030000" name="工会经费"/>
+            <costCategory code="4100040000" name="职工教育经费"/>
+            <costCategory code="4100080031" name="非货币性福利"/>
+            <costCategory code="4100110002" name="解除补偿金"/>
+            <costCategory code="4100090001" name="劳动保护费"/>
+            <costCategory code="4100080299" name="离退休人员医药费"/>
+            <costCategory code="4100080026" name="离退休人员补贴"/>
+        </costType>
+        <costType id="2" name="日常操作性支出" sort="2">
+            <costCategory code="4000040001" name="加油站水费"/>
+            <costCategory code="40000400011" name="机关水费"/>
+            <costCategory code="4000040002" name="加油站电费"/>
+            <costCategory code="40000400021" name="机关电费"/>
+            <costCategory code="4200050000" name="取暖费"/>
+            <costCategory code="4200370007" name="化（检）验计量费（预算内）"/>
+            <costCategory code="42003700071" name="化（检）验计量费（预算外）"/>
+            <costCategory code="4201170000" name="警卫消防费（预算内）"/>
+            <costCategory code="42011700001" name="警卫消防费（预算外）"/>
+            <costCategory code="4100180100" name="日常修理费（预算内）"/>
+            <costCategory code="41001801001" name="日常修理费（预算外）"/>
+            <costCategory code="41001801002" name="专项修理费"/>
+            <costCategory code="41001801003" name="隐患治理"/>
+            <costCategory code="4200790000" name="IC卡系统运行维护费"/>
+            <costCategory code="4200750000" name="信息系统运行维护费"/>
+            <costCategory code="4200160000" name="经营用通讯费"/>
+            <costCategory code="4200040004" name="低值易耗品摊销"/>
+            <costCategory code="4200210000" name="零售业务宣传费"/>
+            <costCategory code="42002100001" name="直销业务宣传费"/>
+            <costCategory code="42002100002" name="非油业务宣传费"/>
+            <costCategory code="4200240000" name="销售服务费"/>
+            <costCategory code="4200170000" name="印刷费"/>
+            <costCategory code="4200570000" name="环境卫生费"/>
+            <costCategory code="42005700001" name="环保支出"/>
+        </costType>
+        <costType id="3" name="对外协议支出" sort="3">
+            <costCategory code="4200100000" name="代理手续费"/>
+            <costCategory code="4200010001" name="加油站租赁费"/>
+            <costCategory code="42000100011" name="办公楼租赁费"/>
+            <costCategory code="42000100012" name="其他租赁费"/>
+            <costCategory code="4200610000" name="诉讼费"/>
+            <costCategory code="4200600001" name="咨询费"/>
+            <costCategory code="4200600002" name="审计费"/>
+            <costCategory code="4200600003" name="评估费"/>
+        </costType>
+        <costType id="4" name="公务性支出" sort="4">
+            <costCategory code="4200260000" name="业务招待费"/>
+            <costCategory code="4200060001" name="办公费"/>
+            <costCategory code="4200070000" name="差旅费"/>
+            <costCategory code="4200130000" name="会议费"/>
+            <costCategory code="42001600001" name="管理用通讯费"/>
+            <costCategory code="4200200000" name="图书资料费"/>
+            <costCategory code="4200380001" name="车辆费"/>
+        </costType>
+        <costType id="5" name="税费性支出" sort="5">
+            <costCategory code="4200030002" name="财产保险费"/>
+            <costCategory code="4200530001" name="房产税"/>
+            <costCategory code="4200530002" name="车船使用税"/>
+            <costCategory code="4200530003" name="土地使用税"/>
+            <costCategory code="4200530004" name="印花税"/>
+            <costCategory code="4200550010" name="行政性收费（预算内）"/>
+            <costCategory code="42005500101" name="行政性收费（预算外）"/>
+        </costType>
+        <costType id="6" name="其他" sort="6">
+            <costCategory code="4200110000" name="团员活动经费"/>
+            <costCategory code="4200120000" name="党员活动经费"/>
+            <costCategory code="4200990000" name="其他"/>
+            <costCategory code="4200710099" name="营业外支出"/>
+        </costType>
+        <costType id="7" name="财务费用" sort="7">
+            <costCategory code="5503990500" name="财务费用-加油站上门收款"/>
+            <costCategory code="5503990100" name="财务费用-手续费"/>
+            <costCategory code="5503019900" name="财务费用-其他利息支出"/>
+            <costCategory code="5503020204" name="财务费用-银行存款利息收入"/>
+        </costType>
+    </costCategories>
+</bes>
